@@ -1,6 +1,6 @@
-//https://docs.google.com/spreadsheets/d/1ed1q9sCQPuIdnTfH5-8dcb2yTQjQPHY4wfN_ByaMJwc/edit#gid=0
+//https://docs.google.com/spreadsheets/d/1ed1q95g3PuIdnTfH5-8dcb2yTQjQGHR4wfN_ByaMJwc/edit#gid=0
 
-var ss = SpreadsheetApp.openById('1ed1q9sCQPuIdnTfH5-8dcb2yTQjQPHY4wfN_ByaMJwc');
+var ss = SpreadsheetApp.openById('Enter_Sheet_ID');
 var sheet = ss.getSheetByName('Sheet1');
 
 function doPost(e) {
