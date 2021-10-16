@@ -19,9 +19,9 @@
 //------------------------------------------------------------------------------
 // Template ID, Device Name and Auth Token are provided by the Blynk.Cloud
 // See the Device Info tab, or Template settings
-#define BLYNK_TEMPLATE_ID "TMPLb-x84_kk"
-#define BLYNK_DEVICE_NAME "ESP32 Home Automation"
-#define BLYNK_AUTH_TOKEN "U-hWVOCBHFWZhXK-GRDJDfx-lwL9_b8D"
+#define BLYNK_TEMPLATE_ID "ENTER_TEMPLATE_ID"
+#define BLYNK_DEVICE_NAME "ENTER_DEVICE_NAME"
+#define BLYNK_AUTH_TOKEN "ENTER_AUTH_TOKEN"
 //------------------------------------------------------------------------------
 // Comment this out to disable prints and save space
 #define BLYNK_PRINT Serial
