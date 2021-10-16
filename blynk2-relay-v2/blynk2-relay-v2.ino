@@ -37,8 +37,8 @@ char auth[] = BLYNK_AUTH_TOKEN;
 //------------------------------------------------
 // Your WiFi credentials.
 // Set password to "" for open networks.
-char ssid[] = "OPPO A54";
-char pass[] = "cebfa248e1a0";
+char ssid[] = "ENTER_WIFI_SSID";
+char pass[] = "ENTER_WIFI_PASSWORD";
 //------------------------------------------------
 
 BlynkTimer timer;
