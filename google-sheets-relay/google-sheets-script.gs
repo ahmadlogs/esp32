@@ -8,6 +8,9 @@
  *  *********************************************************************************/
  
  //https://docs.google.com/spreadsheets/d/1ed1q95g3PuIdnTfH5-8dcb2yTQjQGHR4wfN_ByaMJwc/edit#gid=0
+var ss = SpreadsheetApp.openById('ENTER_SHEET_ID');
+var sheet = ss.getSheetByName('Sheet1');
+
 
 function doGet(e){
   //----------------------------------------------------------------------------------
