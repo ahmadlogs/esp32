@@ -69,6 +69,7 @@ function update_relay_state(relay_number, relay_state){
 
 //MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
 //Extra Function. Not used in this project.
+//planning to use in future projects.
 //this function is used to handle POST request
 function doPost(e) {
   var val = e.parameter.value;
