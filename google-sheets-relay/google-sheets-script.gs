@@ -1,17 +1,5 @@
 //https://docs.google.com/spreadsheets/d/1ed1q95g3PuIdnTfH5-8dcb2yTQjQGHR4wfN_ByaMJwc/edit#gid=0
 
-var ss = SpreadsheetApp.openById('Enter_Sheet_ID');
-var sheet = ss.getSheetByName('Sheet1');
-
-function doPost(e) {
-  var val = e.parameter.value;
-  
-  if (e.parameter.value !== undefined){
-    var range = sheet.getRange('A2');
-    range.setValue(val);
-  }
-}
-
 function doGet(e){
   //----------------------------------------------------------------------------------
   //there are two code blocks in doGet function. code block 1 and 2.
@@ -77,3 +65,17 @@ function update_relay_state(relay_number, relay_state){
   }
   //------------------------------------------------
 }
+
+
+//MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+//Extra Function. Not used in this project.
+//this function is used to handle POST request
+function doPost(e) {
+  var val = e.parameter.value;
+  
+  if (e.parameter.value !== undefined){
+    var range = sheet.getRange('A2');
+    range.setValue(val);
+  }
+}
+//MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
