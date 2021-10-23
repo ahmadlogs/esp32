@@ -81,7 +81,7 @@ void read_google_sheet(void) {
   Serial.println("Reading Data From Google Sheet.....");
   http.begin(url.c_str());
   //-----------------------------------------------------------------------------------
-  //Remove this error "302 Moved Temporarily Error"
+  //Removes the error "302 Moved Temporarily Error"
   http.setFollowRedirects(HTTPC_STRICT_FOLLOW_REDIRECTS);
   //-----------------------------------------------------------------------------------
   //Get the returning HTTP status code
