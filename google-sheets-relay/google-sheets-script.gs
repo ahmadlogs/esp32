@@ -1,4 +1,13 @@
-//https://docs.google.com/spreadsheets/d/1ed1q95g3PuIdnTfH5-8dcb2yTQjQGHR4wfN_ByaMJwc/edit#gid=0
+/************************************************************************************
+ *  Created By: Tauseef Ahmad
+ *  Created On: October 9, 2021
+ *  
+ *  Tutorial Video: https://youtu.be/yem5EysVloc
+ *  My Channel: https://www.youtube.com/channel/UCOXYfOHgu-C-UfGyDcu5sYw/
+ *  
+ *  *********************************************************************************
+ 
+ //https://docs.google.com/spreadsheets/d/1ed1q95g3PuIdnTfH5-8dcb2yTQjQGHR4wfN_ByaMJwc/edit#gid=0
 
 function doGet(e){
   //----------------------------------------------------------------------------------
