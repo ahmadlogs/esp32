@@ -23,7 +23,7 @@ TinyGPSPlus gps;
 
 #define RXD2 16
 #define TXD2 17
-HardwareSerial neogps(2);
+HardwareSerial neogps(1);
 //--------------------------------------------
 
 //---------------------------------------------------------------------
