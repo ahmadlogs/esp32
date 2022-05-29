@@ -123,10 +123,10 @@ void setup()
   //Blynk.begin(auth, ssid, pass, "blynk.cloud", 80);
   //Blynk.begin(auth, ssid, pass, IPAddress(192,168,1,100), 8080);
   //--------------------------------------------------------------------
-  Blynk.virtualWrite(button1_vpin, relay1_state);
-  Blynk.virtualWrite(button2_vpin, relay2_state);
-  Blynk.virtualWrite(button3_vpin, relay3_state);
-  Blynk.virtualWrite(button4_vpin, relay4_state);
+  //Blynk.virtualWrite(button1_vpin, relay1_state);
+  //Blynk.virtualWrite(button2_vpin, relay2_state);
+  //Blynk.virtualWrite(button3_vpin, relay3_state);
+  //Blynk.virtualWrite(button4_vpin, relay4_state);
   //--------------------------------------------------------------------
 }
 
