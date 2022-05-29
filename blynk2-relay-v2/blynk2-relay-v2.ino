@@ -134,10 +134,10 @@ void setup()
   //Blynk.begin(auth, ssid, pass, "blynk.cloud", 80);
   //Blynk.begin(auth, ssid, pass, IPAddress(192,168,1,100), 8080);
   //--------------------------------------------------------------------
-  Blynk.virtualWrite(VPIN_BUTTON1, state_relay1);
-  Blynk.virtualWrite(VPIN_BUTTON2, state_relay2);
-  Blynk.virtualWrite(VPIN_BUTTON3, state_relay3);
-  Blynk.virtualWrite(VPIN_BUTTON4, state_relay4);
+  //Blynk.virtualWrite(VPIN_BUTTON1, state_relay1);
+  //Blynk.virtualWrite(VPIN_BUTTON2, state_relay2);
+  //Blynk.virtualWrite(VPIN_BUTTON3, state_relay3);
+  //Blynk.virtualWrite(VPIN_BUTTON4, state_relay4);
   //--------------------------------------------------------------------
   if(!SerialBT.begin("ESP32")){
     Serial.println("An error occurred initializing Bluetooth");
