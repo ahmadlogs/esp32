@@ -7,9 +7,8 @@
  *  
  *  *********************************************************************************************
  *  Preferences--> Aditional boards Manager URLs : 
- *  For ESP32:
+ *  For ESP32 (2.0.3):
  *  https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json
- *  Download Board ESP32 (2.0.3) : 
  *  *********************************************************************************************
  *  Install the following libraries :
  *  1. ezButton
