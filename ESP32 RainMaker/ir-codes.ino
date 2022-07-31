@@ -1,3 +1,21 @@
+/*************************************************************************************
+ *  Created By: Tauseef Ahmad
+ *  Created On: 28 July, 2022
+ *  
+ *  YouTube Video: https://youtu.be/inVhQaKLdlk
+ *  My Channel: https://www.youtube.com/channel/UCOXYfOHgu-C-UfGyDcu5sYw/
+ *  
+ *  *********************************************************************************
+ *  Preferences--> Aditional boards Manager URLs : 
+ *  For ESP32:
+ *  https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json
+ *  Download Board ESP32 (2.0.3) : 
+ *  *********************************************************************************
+ *  Install the following libraries :
+ *  1. ezButton
+ *  2. IRremote
+ ***********************************************************************************/
+
 #include <IRremote.h>
 const byte IR_RECEIVE_PIN = 14;
 
