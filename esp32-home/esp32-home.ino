@@ -50,7 +50,7 @@ char pass[] = "ENTER_WIFI_PASSWORD";
 #define BUZZER  23
 #define TRIG    12
 #define ECHO    13
-#define PIR     14
+#define PIR     14 //pir security button pin
 #define MQ2     34
 #define DHT_PIN 19
 #define FLAME   21
