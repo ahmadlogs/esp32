@@ -48,11 +48,6 @@ ezButton button2(35);
 ezButton button3(32);
 ezButton button4(33);
 //---------------------------------------------------
-//static uint8_t SwitchPin1 = 13;  //D13
-//static uint8_t SwitchPin2 = 12;  //D12
-//static uint8_t SwitchPin3 = 14;  //D14
-//static uint8_t SwitchPin4 = 27;  //D27
-//---------------------------------------------------
 static uint8_t WIFI_LED    = 2;   //D2
 static uint8_t gpio_reset = 0;
 //---------------------------------------------------
