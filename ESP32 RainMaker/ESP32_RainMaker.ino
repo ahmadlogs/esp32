@@ -56,18 +56,11 @@ ezButton button4(33);
 static uint8_t WIFI_LED    = 2;   //D2
 static uint8_t gpio_reset = 0;
 //---------------------------------------------------
-/* Variable for reading pin status*/
 // Relay State
-bool STATE_RELAY_1 = LOW; //Define integer to remember the toggle state for relay 1
-bool STATE_RELAY_2 = LOW; //Define integer to remember the toggle state for relay 2
-bool STATE_RELAY_3 = LOW; //Define integer to remember the toggle state for relay 3
-bool STATE_RELAY_4 = LOW; //Define integer to remember the toggle state for relay 4
-//---------------------------------------------------
-// Switch State
-//bool SwitchState_1 = LOW;
-//bool SwitchState_2 = LOW;
-//bool SwitchState_3 = LOW;
-//bool SwitchState_4 = LOW;
+bool STATE_RELAY_1 = LOW;
+bool STATE_RELAY_2 = LOW;
+bool STATE_RELAY_3 = LOW;
+bool STATE_RELAY_4 = LOW;
 //---------------------------------------------------
 //The framework provides some standard device types 
 //like switch, lightbulb, fan, temperature sensor.
@@ -165,59 +158,6 @@ void write_callback(Device *device, Param *param, const param_val_t val, void *p
     }
     //---------------------------------------------------------------------------------- 
 }
-
-/*void manual_control()
-{
-  if (digitalRead(SwitchPin1) == LOW && SwitchState_1 == LOW) {
-    digitalWrite(RELAY_1, LOW);
-    STATE_RELAY_1 = 1;
-    SwitchState_1 = HIGH;
-    my_switch1.updateAndReportParam(ESP_RMAKER_DEF_POWER_NAME, STATE_RELAY_1);
-    Serial.println("Switch-1 on");
-  }
-  if (digitalRead(SwitchPin1) == HIGH && SwitchState_1 == HIGH) {
-    digitalWrite(RELAY_1, HIGH);
-    STATE_RELAY_1 = 0;
-    SwitchState_1 = LOW;
-    my_switch1.updateAndReportParam(ESP_RMAKER_DEF_POWER_NAME, STATE_RELAY_1);
-    Serial.println("Switch-1 off");
-  }
-  if (digitalRead(SwitchPin2) == LOW && SwitchState_2 == LOW) {
-    digitalWrite(RELAY_2, LOW);
-    STATE_RELAY_2 = 1;
-    SwitchState_2 = HIGH;
-    my_switch2.updateAndReportParam(ESP_RMAKER_DEF_POWER_NAME, STATE_RELAY_2);
-    Serial.println("Switch-2 on");
-  }
-  if (digitalRead(SwitchPin2) == HIGH && SwitchState_2 == HIGH) {
-    digitalWrite(RELAY_2, HIGH);
-    STATE_RELAY_2 = 0;
-    SwitchState_2 = LOW;
-    my_switch2.updateAndReportParam(ESP_RMAKER_DEF_POWER_NAME, STATE_RELAY_2);
-    Serial.println("Switch-2 off");
-  }
-  if (digitalRead(SwitchPin3) == LOW && SwitchState_3 == LOW) {
-    digitalWrite(RELAY_3, LOW);
-    STATE_RELAY_3 = 1;
-    SwitchState_3 = HIGH;
-    my_switch3.updateAndReportParam(ESP_RMAKER_DEF_POWER_NAME, STATE_RELAY_3);
-    Serial.println("Switch-3 on");
-  }
-  if (digitalRead(SwitchPin3) == HIGH && SwitchState_3 == HIGH) {
-    digitalWrite(RELAY_3, HIGH);
-    STATE_RELAY_3 = 0;
-    SwitchState_3 = LOW;
-    my_switch3.updateAndReportParam(ESP_RMAKER_DEF_POWER_NAME, STATE_RELAY_3);
-    Serial.println("Switch-3 off");
-  }
-  if (digitalRead(SwitchPin4) == LOW && SwitchState_4 == LOW) {
-    digitalWrite(RELAY_4, LOW);
-    STATE_RELAY_4 = 1;
-    SwitchState_4 = HIGH;
-    my_switch4.updateAndReportParam(ESP_RMAKER_DEF_POWER_NAME, STATE_RELAY_4);
-    Serial.println("Switch-4 on");
-  }
-} */ 
 
 /****************************************************************************************************
  * setup Function
